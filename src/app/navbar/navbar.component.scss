@@ -1,0 +1,27 @@
+nav{
+  background: linear-gradient(to right, #f27121, #e94057);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+button{
+  border: 0px;
+  background: linear-gradient(to right,#0072ff,#00c6ff);
+  font-size: 18px;
+  color: white;
+  margin-right: 14px;
+  height: 40px;
+  width: 100px;
+  box-shadow: 3px 3px 0px black;
+
+  &:hover{
+    border-radius: 10px;
+    background: darkgrey;
+    transform: translate(-2px);
+  }
+}

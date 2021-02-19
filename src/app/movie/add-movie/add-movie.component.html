@@ -1,0 +1,7 @@
+<form [formGroup]="movieForm">
+  <input type="text" placeholder="Name" formControlName="Name"/>
+  <input type="text" placeholder="Image URL" formControlName="image"/>
+  <input type="text" placeholder="Genre" formControlName="genre"/>
+  <input type="text" placeholder="Name" formControlName="releaseYear"/>
+  <button [disabled]="!movieForm.valid" type="submit">Add</button>
+</form>
